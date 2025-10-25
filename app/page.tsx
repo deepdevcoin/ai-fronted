@@ -36,7 +36,9 @@ export default function Home() {
   const [error, setError] = useState("")
   const [allProducts, setAllProducts] = useState<Product[]>([])
 
-  const BACKEND_URL = "https://ai-recommendation.deepdev.co.in"
+  const BACKEND_URL = "https://ai-backend.deepdev.co.in"
+  // const BACKEND_URL = "https://ai-recommendation.deepdev.co.in"
+
 
   const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault()
